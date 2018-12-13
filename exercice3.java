@@ -1,19 +1,12 @@
 package exercice;
 
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
-import java.time.Duration;
-import java.time.Instant;
 import java.util.ArrayList;
-import java.util.concurrent.TimeUnit;
 
-public class exercice3 {
+public class Exercice3 {
 
     public static void main(String[] args) {
 
-        System.out.println("================= EXERCICE 3 - RUNTIME EXCEPTION =================\n");
+        System.out.println("EXERCICE 3 - RUNTIME EXCEPTION\n");
         String[] strings={"45687543"};
         ArrayList<Exception> exceptions = calculetteSum(strings);
 
@@ -54,10 +47,10 @@ public class exercice3 {
         if(tmp == -1){
             System.out.println("FUNCTION IS WRONG...");
         }else if (tmp == 1){
-            System.out.println("\nFUNCTION IS WRONG... BUT THE SUM WAS CALCULETED FOR THE FOINDED NUMBER IN THE STRING OF CHARACTERS");
+            System.out.println("\nFUNCTION IS WRONG");
             System.out.println("SUM : " + sum);
         }else{
-            System.out.println("NO ERROR ☺");
+            System.out.println("NO ERROR");
             System.out.println("SUM : " + sum);
         }
         return exceptions;
