@@ -45,7 +45,7 @@ public class Exercice3 {
         }
 
         if(tmp == -1){
-            System.out.println("FUNCTION IS WRONG...");
+            System.out.println("FUNCTION IS WRONG");
         }else if (tmp == 1){
             System.out.println("\nFUNCTION IS WRONG");
             System.out.println("SUM : " + sum);
