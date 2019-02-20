@@ -8,7 +8,6 @@ public class Dice {
 
 
     public Dice(){
-
         this.value = 0;
     }
 
@@ -21,10 +20,7 @@ public class Dice {
     }
 
     public void launch(){
-
         Random random = new Random();
-
         setValue(random.nextInt(6));
-
     }
 }
