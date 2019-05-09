@@ -1,0 +1,3 @@
+stephane.hollander@gmail.com:5555
+truc.machin@myges.fr:1234
+frederic.sananes@super.fr:9999
